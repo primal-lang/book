@@ -1,0 +1,6 @@
+I am writing a book on functional programming (FP) for beginners in programming or programmers that want to learn functional programming. Act as an expert technical editor. Research the tables of contents of the top 20 most influential FP books. 
+
+1. Identify the 5 'non-negotiable' chapters that appear in every book.
+2. Highlight how 'modern' FP books (post-2020) differ in structure from 'classic' ones.
+3. Suggest the chapters outline that balances theory with practical application.
+4. Identify one 'missing' topic that most books ignore but would be valuable for my audience.
