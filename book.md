@@ -27,6 +27,8 @@
 - Should be exported to ePub, PDF and other formats
 - Should be easy to translate to other languages
 
+Explain the different computation models: Turing machines, lambda calculus, and how they relate to programming languages.
+
 Turing computing vs lambda calculus
 
 What’s a programmer? What skills do they need?
