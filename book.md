@@ -96,3 +96,53 @@ Types of execution
 - Compile to machine code
 - Transpile to another high level language
 - Compile to bytecode
+
+---
+
+Functional programming (FP) is a paradigm—a style of building programs. Unlike imperative programming (which tells the computer how to do something step-by-step), functional programming is declarative: you describe what you want, and let the system figure out the how.
+
+In FP, functions are the primary building blocks. Everything revolves around them. These aren't just the "methods" or "procedures" you're used to—they're mathematical functions that take inputs and return outputs, with no side effects.
+
+---
+
+Functional programming (FP) is a paradigm—a style of building programs. Unlike imperative programming (which tells the computer how to do something step-by-step), functional programming is declarative: you describe what you want, and let the system figure out the how.
+
+In FP, functions are the primary building blocks. Everything revolves around them. These aren't just the "methods" or "procedures" you're used to—they're mathematical functions that take inputs and return outputs, with no side effects.
+
+---
+
+First-Class and Higher-Order Functions
+In FP, functions can:
+
+Be assigned to variables
+
+Be passed as arguments
+
+Be returned from other functions
+
+Yes, functions are data too.
+
+Example:
+
+Haskell
+applyTwice f x = f (f x)
+You can pass any function to applyTwice. Even ones you create on the fly.
+
+---
+
+Recursion (instead of loops)
+There are no for or while loops in Haskell. Instead, repetition is handled via recursion: a function calling itself.
+
+---
+
+Declarative over Imperative
+You say what you want done, not how to do it.
+
+Imperative (C-style):
+
+for (int i = 0; i < 10; i++) { sum += i; }
+Functional (Haskell):
+
+Haskell
+sum [0..9]
+Much cleaner, right?
