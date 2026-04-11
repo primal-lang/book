@@ -146,3 +146,20 @@ Functional (Haskell):
 Haskell
 sum [0..9]
 Much cleaner, right?
+
+---
+
+Type Inference
+Type inference in Haskell is the process by which the compiler automatically determines the types of expressions and variables in a program without requiring explicit type annotations from the programmer.
+
+This is a key feature of Haskell's static type system, enabled by its use of the Hindley-Milner type system (or a variant thereof), which allows for robust and efficient type deduction.
+
+How Type Inference Works in Haskell
+
+1. Hindley-Milner Algorithm: Haskell uses a type inference algorithm based on Hindley-Milner (often called "Algorithm W"). This algorithm analyzes the structure of the code, including function applications, variable bindings, and expressions, to deduce the most general (principal) type for each term.
+
+2. Unification: The algorithm works by collecting constraints from the program (e.g., "this function takes an Int and returns a Bool") and solving them through a process called unification. It ensures that the types of arguments and return values are consistent across the program.
+
+3. Polymorphism: Haskell's type inference supports parametric polymorphism, meaning functions can work with generic types. For example, the function length :: [a] -> Int can operate on a list of any type a, and the compiler infers this generality automatically.
+
+4. Context Analysis: The compiler examines how variables are used in expressions. For instance, if a variable is used in an operation that requires an Int, the compiler infers it must be of type Int. If no specific type is required, it assigns a polymorphic type.
