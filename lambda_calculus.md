@@ -1,5 +1,7 @@
 # Lambda calculus
 
+It's a mathematical framework for describing comput
+
 ## Binding
 
 Binding refers to the association of a variable with a function's parameter. A variable that is defined locally within that function is called a "bound variable". Variables that are external to the function are called "free variables".
