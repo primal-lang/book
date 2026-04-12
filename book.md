@@ -163,3 +163,23 @@ How Type Inference Works in Haskell
 3. Polymorphism: Haskell's type inference supports parametric polymorphism, meaning functions can work with generic types. For example, the function length :: [a] -> Int can operate on a list of any type a, and the compiler infers this generality automatically.
 
 4. Context Analysis: The compiler examines how variables are used in expressions. For instance, if a variable is used in an operation that requires an Int, the compiler infers it must be of type Int. If no specific type is required, it assigns a polymorphic type.
+
+---
+
+What is Tuple?
+Tuples are a versatile way to group different types of data together in a single, fixed-size collection. They are particularly useful when you want to handle related but distinct pieces of information. Imagine a gift box with several compartments, each designed to hold a different kind of item. One compartment might hold a small toy, another a piece of jewelry, and another a handwritten note. Each compartment's contents are different (just like the elements in a tuple can be of different types), but they all belong together because they are related in some way—like items in a gift meant for a particular person.
+
+In a practical sense, if you were to represent a contact entry in a phone book using a tuple, it might look like this:
+("Alice", 30, "A+")
+
+Lists and Tuples
+
+Let's understand Tuples better by learning some key concepts.
+
+Tuples are enclosed in parentheses (), with elements separated by commas, like this: (1, "apple", True).
+
+Each element in a tuple can be of a different type, which makes tuples highly flexible.
+
+Think of a tuple as a multi-compartment box where each compartment holds a different type of item—a book in one, a key in another, and a pen in the third.
+
+Tuples are of fixed size. Once a tuple is created, its size is set in stone. You can't add or remove elements from it. This is different from lists, which are like expandable folders where you can add or remove papers.

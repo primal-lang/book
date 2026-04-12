@@ -1,6 +1,6 @@
 # Lambda calculus
 
-It's a mathematical framework for describing comput
+It's a mathematical framework for describing computation.
 
 ## Binding
 
